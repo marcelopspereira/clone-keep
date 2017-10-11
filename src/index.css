@@ -1,0 +1,21 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, #root, .App {
+  font-size: 8px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: nunito, sans-serif;
+  width: 100%;
+}
+
+.DraftEditor-root {
+  flex: 1;
+  font-size: 18px;
+}
+
+.public-DraftEditor-content {
+  min-height: 40px;
+}
